@@ -1,65 +1,60 @@
-const express = require('express');
-const rateLimit = require('express-rate-limit');
-const helmet = require('helmet');
-const mongoSanitize = require('express-mongo-sanitize');
-const xss = require('xss-clean');
-const hpp = require('hpp');
-const cors = require('cors');
+var express = require('express');
+var path = require('path');
+var favicon = require('serve-favicon');
+var logger = require('morgan');
+var cookieParser = require('cookie-parser');
+var bodyParser = require('body-parser');
 
+var routes = require('./routes/index');
+var users = require('./routes/users');
 
-const userRoutes = require('./routes/userRoutes');
-const productRoutes = require('./routes/productRoutes');
-const globalErrHandler = require('./controllers/errorController');
-const AppError = require('./utils/appError');
-const swaggerUi = require('swagger-ui-express');
-swaggerDocument = require('./swagger.json');
-const app = express();
+var app = express();
 
-// Allow Cross-Origin requests
-app.use(cors());
+// view engine setup
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'pug');
 
-// Set security HTTP headers
-app.use(helmet());
+// uncomment after placing your favicon in /public
+//app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+app.use(logger('dev'));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(cookieParser());
+app.use(express.static(path.join(__dirname, 'public')));
 
-// Limit request from the same API 
-const limiter = rateLimit({
-    max: 150,
-    windowMs: 60 * 60 * 1000,
-    message: 'Too Many Request from this IP, please try again in an hour'
+app.use('/', routes);
+app.use('/users', users);
+
+// catch 404 and forward to error handler
+app.use(function(req, res, next) {
+  var err = new Error('Not Found');
+  err.status = 404;
+  next(err);
 });
-app.use('/api', limiter);
 
-// Body parser, reading data from body into req.body
-app.use(express.json({
-    limit: '15kb'
-}));
+// error handlers
 
-// Data sanitization against Nosql query injection
-app.use(mongoSanitize());
-
-// Data sanitization against XSS(clean user input from malicious HTML code)
-app.use(xss());
-
-// Prevent parameter pollution
-app.use(hpp());
-
-// Swagger docs
-
-// Routes
-app.use('/api/v1/users', userRoutes);
-app.use('/api/v1/products', productRoutes);
-
-const env = process.env.NODE_ENVIROMMENT;
-if (env === 'development') {
-    app.use('/api-doc', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+// development error handler
+// will print stacktrace
+if (app.get('env') === 'development') {
+  app.use(function(err, req, res, next) {
+    res.status(err.status || 500);
+    res.render('error', {
+      message: err.message,
+      error: err
+    });
+  });
 }
 
-// handle undefined Routes
-app.use('*', (req, res, next) => {
-    const err = new AppError(404, 'fail', 'undefined route');
-    next(err, req, res, next);
+// production error handler
+// no stacktraces leaked to user
+app.use(function(err, req, res, next) {
+  res.status(err.status || 500);
+  res.render('error', {
+    message: err.message,
+    error: {}
+  });
 });
 
-app.use(globalErrHandler);
 
 module.exports = app;
