@@ -1,0 +1,275 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "bws api docs",
+        "description": "bws api documentation"
+    },
+    "servers": [
+        {
+            "url": "https://bws-statging.herokuapp.com/api/v1",
+            "description": "Staging server (uses live data)"
+        },
+        {
+            "url": "http://localhost:3000/api/v1",
+            "description": "Local Env"
+        }
+    ],
+    "tags": [
+        {
+            "name": "Users",
+            "description": "API for users in the system"
+        },
+        {
+            "name": "Products",
+            "description": "API for users in the system"
+        }
+    ],
+    "consumes": [
+        "application/json"
+    ],
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/users/login": {
+            "post": {
+                "operationId": "login",
+                "tags": [
+                    "Users"
+                ],
+                "summary": "login user",
+                "requestBody": {
+                    "description": "User to login",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "example": {
+                                    "email": "admin@bws.com",
+                                    "password": "1234qwer"
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "example": {
+                                        "status": "success",
+                                        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwNzlkZTY4ZmQyMGFjMDAxNTJjMzAwMCIsImlhdCI6MTYxODYxMjgyMSwiZXhwIjoxNjIxMjA0ODIxfQ.FiySqtex8sNgzZJHvSStOaJVKuegWiv9dRyVntE-Y_Q",
+                                        "data": {
+                                            "user": {
+                                                "role": "admin",
+                                                "_id": "6079de68fd20ac00152c3000",
+                                                "name": "Admin",
+                                                "email": "admin@bws.com",
+                                                "__v": 0
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "description": "Error: Unauthorized",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "example": {
+                                        "status": "fail",
+                                        "error": {
+                                            "statusCode": 401,
+                                            "status": "fail"
+                                        },
+                                        "message": "Email or Password is wrong",
+                                        "stack": "Error: Email or Password is wrong\n    at exports.login (/app/controllers/authController.js:39:9)"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/users/signup": {
+            "post": {
+                "operationId": "signup",
+                "tags": [
+                    "Users"
+                ],
+                "summary": "create new user",
+                "requestBody": {
+                    "description": "User to signup",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "example": {
+                                    "name": "Admin",
+                                    "email": "admin@bws.com",
+                                    "password": "1234qwer",
+                                    "passwordConfirm": "1234qwer",
+                                    "role": "admin"
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "example": {
+                                        "status": "success",
+                                        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwNzlkZTY4ZmQyMGFjMDAxNTJjMzAwMCIsImlhdCI6MTYxODU5OTUyOCwiZXhwIjoxNjIxMTkxNTI4fQ.oWc-1DLagixeksV8Xx20R3-wT8L22hhtsbOdzaHhYkM",
+                                        "data": {
+                                            "user": {
+                                                "role": "admin",
+                                                "active": true,
+                                                "_id": "6079de68fd20ac00152c3000",
+                                                "name": "Admin",
+                                                "email": "admin@bws.com",
+                                                "__v": 0
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "500": {
+                        "description": "Internal Server Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "example": {
+                                        "status": "error",
+                                        "error": {
+                                            "driver": true,
+                                            "name": "MongoError",
+                                            "index": 0,
+                                            "code": 11000,
+                                            "keyPattern": {
+                                                "email": 1
+                                            },
+                                            "keyValue": {
+                                                "email": "admin@bws.com"
+                                            },
+                                            "errmsg": "E11000 duplicate key error collection: bws-staging.users index: email_1 dup key: { email: \"admin@bws.com\" }",
+                                            "statusCode": 500,
+                                            "status": "error"
+                                        },
+                                        "message": "E11000 duplicate key error collection: bws-staging.users index: email_1 dup key: { email: \"admin@bws.com\" }",
+                                        "stack": "MongoError: E11000 duplicate key error collection: bws-staging.users index: email_1 dup key: { email: \"admin@bws.com\" }\n    at Function.create (/app/node_modules/mongodb/lib/core/error.js:44:12)\n    at toError (/app/node_modules/mongodb/lib/utils.js:150:22)\n    at /app/node_modules/mongodb/lib/operations/common_functions.js:266:39\n    at handler (/app/node_modules/mongodb/lib/core/topologies/replset.js:1198:22)\n    at /app/node_modules/mongodb/lib/core/connection/pool.js:408:18\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/products": {
+            "post": {
+                "security": [
+                    {
+                       "bearerAuth": []
+                    }
+                 ],
+                "operationId": "add-product",
+                "tags": [
+                    "Products"
+                ],
+                "summary": "create new product",
+                "requestBody": {
+                    "description": "product to be added",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "example": {
+                                    "name": "test17",
+                                    "description": "test2"
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    },
+                    "401": {
+                        "description": "Unauthorized"
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "User": {
+            "required": [
+                "name",
+                "email",
+                "password",
+                "passwordConfirm",
+                "role"
+            ],
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "email": {
+                    "type": "string"
+                },
+                "password": {
+                    "type": "string"
+                },
+                "passwordConfirm": {
+                    "type": "string"
+                },
+                "role": {
+                    "type": "string"
+                }
+            }
+        },
+        "loginUser": {
+            "required": [
+                "email",
+                "password"
+            ],
+            "properties": {
+                "email": {
+                    "type": "string"
+                },
+                "password": {
+                    "type": "string"
+                }
+            }
+        }
+    },
+    "components": {
+        "securitySchemes": {
+            "bearerAuth": {
+                "type": "http",
+                "scheme": "bearer",
+                "bearerFormat": "JWT"
+            }
+        }
+    }
+}
