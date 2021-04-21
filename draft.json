@@ -1,0 +1,16 @@
+{
+  "nextPrayer": [
+    {
+      "name": "isha",
+      "time": "07:00 Pm",
+      "date": "20-04-2021",
+      "remaingSeconds": "600"
+    },
+    {
+      "name": "fajr",
+      "time": "05:00 Am",
+      "date": "21-04-2021",
+      "remaingSeconds": "600"
+    }
+  ]
+}

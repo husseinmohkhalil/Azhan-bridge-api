@@ -1,0 +1,2438 @@
+{
+  "code": 200,
+  "status": "OK",
+  "data": [
+    {
+      "timings": {
+        "Fajr": "05:58 (CEST)",
+        "Sunrise": "07:07 (CEST)",
+        "Dhuhr": "13:33 (CEST)",
+        "Asr": "17:06 (CEST)",
+        "Sunset": "19:59 (CEST)",
+        "Maghrib": "19:59 (CEST)",
+        "Isha": "21:08 (CEST)",
+        "Imsak": "05:48 (CEST)",
+        "Midnight": "01:33 (CEST)"
+      },
+      "date": {
+        "readable": "01 Apr 2021",
+        "timestamp": "1617260461",
+        "gregorian": {
+          "date": "01-04-2021",
+          "format": "DD-MM-YYYY",
+          "day": "01",
+          "weekday": {
+            "en": "Thursday"
+          },
+          "month": {
+            "number": 4,
+            "en": "April"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "18-08-1442",
+          "format": "DD-MM-YYYY",
+          "day": "18",
+          "weekday": {
+            "en": "Al Khamees",
+            "ar": "الخميس"
+          },
+          "month": {
+            "number": 8,
+            "en": "Shaʿbān",
+            "ar": "شَعْبان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 47.9568123,
+        "longitude": 7.7496747,
+        "timezone": "Europe/Berlin",
+        "method": {
+          "id": 12,
+          "name": "Union Organization Islamic de France",
+          "params": {
+            "Fajr": 12,
+            "Isha": 12
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "05:56 (CEST)",
+        "Sunrise": "07:05 (CEST)",
+        "Dhuhr": "13:33 (CEST)",
+        "Asr": "17:07 (CEST)",
+        "Sunset": "20:01 (CEST)",
+        "Maghrib": "20:01 (CEST)",
+        "Isha": "21:10 (CEST)",
+        "Imsak": "05:46 (CEST)",
+        "Midnight": "01:33 (CEST)"
+      },
+      "date": {
+        "readable": "02 Apr 2021",
+        "timestamp": "1617346861",
+        "gregorian": {
+          "date": "02-04-2021",
+          "format": "DD-MM-YYYY",
+          "day": "02",
+          "weekday": {
+            "en": "Friday"
+          },
+          "month": {
+            "number": 4,
+            "en": "April"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "19-08-1442",
+          "format": "DD-MM-YYYY",
+          "day": "19",
+          "weekday": {
+            "en": "Al Juma'a",
+            "ar": "الجمعة"
+          },
+          "month": {
+            "number": 8,
+            "en": "Shaʿbān",
+            "ar": "شَعْبان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 47.9568123,
+        "longitude": 7.7496747,
+        "timezone": "Europe/Berlin",
+        "method": {
+          "id": 12,
+          "name": "Union Organization Islamic de France",
+          "params": {
+            "Fajr": 12,
+            "Isha": 12
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "05:54 (CEST)",
+        "Sunrise": "07:03 (CEST)",
+        "Dhuhr": "13:32 (CEST)",
+        "Asr": "17:08 (CEST)",
+        "Sunset": "20:02 (CEST)",
+        "Maghrib": "20:02 (CEST)",
+        "Isha": "21:12 (CEST)",
+        "Imsak": "05:44 (CEST)",
+        "Midnight": "01:33 (CEST)"
+      },
+      "date": {
+        "readable": "03 Apr 2021",
+        "timestamp": "1617433261",
+        "gregorian": {
+          "date": "03-04-2021",
+          "format": "DD-MM-YYYY",
+          "day": "03",
+          "weekday": {
+            "en": "Saturday"
+          },
+          "month": {
+            "number": 4,
+            "en": "April"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "20-08-1442",
+          "format": "DD-MM-YYYY",
+          "day": "20",
+          "weekday": {
+            "en": "Al Sabt",
+            "ar": "السبت"
+          },
+          "month": {
+            "number": 8,
+            "en": "Shaʿbān",
+            "ar": "شَعْبان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 47.9568123,
+        "longitude": 7.7496747,
+        "timezone": "Europe/Berlin",
+        "method": {
+          "id": 12,
+          "name": "Union Organization Islamic de France",
+          "params": {
+            "Fajr": 12,
+            "Isha": 12
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "05:52 (CEST)",
+        "Sunrise": "07:01 (CEST)",
+        "Dhuhr": "13:32 (CEST)",
+        "Asr": "17:08 (CEST)",
+        "Sunset": "20:04 (CEST)",
+        "Maghrib": "20:04 (CEST)",
+        "Isha": "21:13 (CEST)",
+        "Imsak": "05:42 (CEST)",
+        "Midnight": "01:32 (CEST)"
+      },
+      "date": {
+        "readable": "04 Apr 2021",
+        "timestamp": "1617519661",
+        "gregorian": {
+          "date": "04-04-2021",
+          "format": "DD-MM-YYYY",
+          "day": "04",
+          "weekday": {
+            "en": "Sunday"
+          },
+          "month": {
+            "number": 4,
+            "en": "April"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "21-08-1442",
+          "format": "DD-MM-YYYY",
+          "day": "21",
+          "weekday": {
+            "en": "Al Ahad",
+            "ar": "الاحد"
+          },
+          "month": {
+            "number": 8,
+            "en": "Shaʿbān",
+            "ar": "شَعْبان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 47.9568123,
+        "longitude": 7.7496747,
+        "timezone": "Europe/Berlin",
+        "method": {
+          "id": 12,
+          "name": "Union Organization Islamic de France",
+          "params": {
+            "Fajr": 12,
+            "Isha": 12
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "05:49 (CEST)",
+        "Sunrise": "06:59 (CEST)",
+        "Dhuhr": "13:32 (CEST)",
+        "Asr": "17:09 (CEST)",
+        "Sunset": "20:05 (CEST)",
+        "Maghrib": "20:05 (CEST)",
+        "Isha": "21:15 (CEST)",
+        "Imsak": "05:39 (CEST)",
+        "Midnight": "01:32 (CEST)"
+      },
+      "date": {
+        "readable": "05 Apr 2021",
+        "timestamp": "1617606061",
+        "gregorian": {
+          "date": "05-04-2021",
+          "format": "DD-MM-YYYY",
+          "day": "05",
+          "weekday": {
+            "en": "Monday"
+          },
+          "month": {
+            "number": 4,
+            "en": "April"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "22-08-1442",
+          "format": "DD-MM-YYYY",
+          "day": "22",
+          "weekday": {
+            "en": "Al Athnayn",
+            "ar": "الاثنين"
+          },
+          "month": {
+            "number": 8,
+            "en": "Shaʿbān",
+            "ar": "شَعْبان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 47.9568123,
+        "longitude": 7.7496747,
+        "timezone": "Europe/Berlin",
+        "method": {
+          "id": 12,
+          "name": "Union Organization Islamic de France",
+          "params": {
+            "Fajr": 12,
+            "Isha": 12
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "05:47 (CEST)",
+        "Sunrise": "06:57 (CEST)",
+        "Dhuhr": "13:31 (CEST)",
+        "Asr": "17:10 (CEST)",
+        "Sunset": "20:06 (CEST)",
+        "Maghrib": "20:06 (CEST)",
+        "Isha": "21:17 (CEST)",
+        "Imsak": "05:37 (CEST)",
+        "Midnight": "01:32 (CEST)"
+      },
+      "date": {
+        "readable": "06 Apr 2021",
+        "timestamp": "1617692461",
+        "gregorian": {
+          "date": "06-04-2021",
+          "format": "DD-MM-YYYY",
+          "day": "06",
+          "weekday": {
+            "en": "Tuesday"
+          },
+          "month": {
+            "number": 4,
+            "en": "April"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "23-08-1442",
+          "format": "DD-MM-YYYY",
+          "day": "23",
+          "weekday": {
+            "en": "Al Thalaata",
+            "ar": "الثلاثاء"
+          },
+          "month": {
+            "number": 8,
+            "en": "Shaʿbān",
+            "ar": "شَعْبان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 47.9568123,
+        "longitude": 7.7496747,
+        "timezone": "Europe/Berlin",
+        "method": {
+          "id": 12,
+          "name": "Union Organization Islamic de France",
+          "params": {
+            "Fajr": 12,
+            "Isha": 12
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "05:45 (CEST)",
+        "Sunrise": "06:55 (CEST)",
+        "Dhuhr": "13:31 (CEST)",
+        "Asr": "17:11 (CEST)",
+        "Sunset": "20:08 (CEST)",
+        "Maghrib": "20:08 (CEST)",
+        "Isha": "21:18 (CEST)",
+        "Imsak": "05:35 (CEST)",
+        "Midnight": "01:32 (CEST)"
+      },
+      "date": {
+        "readable": "07 Apr 2021",
+        "timestamp": "1617778861",
+        "gregorian": {
+          "date": "07-04-2021",
+          "format": "DD-MM-YYYY",
+          "day": "07",
+          "weekday": {
+            "en": "Wednesday"
+          },
+          "month": {
+            "number": 4,
+            "en": "April"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "24-08-1442",
+          "format": "DD-MM-YYYY",
+          "day": "24",
+          "weekday": {
+            "en": "Al Arba'a",
+            "ar": "الاربعاء"
+          },
+          "month": {
+            "number": 8,
+            "en": "Shaʿbān",
+            "ar": "شَعْبان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 47.9568123,
+        "longitude": 7.7496747,
+        "timezone": "Europe/Berlin",
+        "method": {
+          "id": 12,
+          "name": "Union Organization Islamic de France",
+          "params": {
+            "Fajr": 12,
+            "Isha": 12
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "05:43 (CEST)",
+        "Sunrise": "06:53 (CEST)",
+        "Dhuhr": "13:31 (CEST)",
+        "Asr": "17:11 (CEST)",
+        "Sunset": "20:09 (CEST)",
+        "Maghrib": "20:09 (CEST)",
+        "Isha": "21:20 (CEST)",
+        "Imsak": "05:33 (CEST)",
+        "Midnight": "01:31 (CEST)"
+      },
+      "date": {
+        "readable": "08 Apr 2021",
+        "timestamp": "1617865261",
+        "gregorian": {
+          "date": "08-04-2021",
+          "format": "DD-MM-YYYY",
+          "day": "08",
+          "weekday": {
+            "en": "Thursday"
+          },
+          "month": {
+            "number": 4,
+            "en": "April"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "25-08-1442",
+          "format": "DD-MM-YYYY",
+          "day": "25",
+          "weekday": {
+            "en": "Al Khamees",
+            "ar": "الخميس"
+          },
+          "month": {
+            "number": 8,
+            "en": "Shaʿbān",
+            "ar": "شَعْبان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 47.9568123,
+        "longitude": 7.7496747,
+        "timezone": "Europe/Berlin",
+        "method": {
+          "id": 12,
+          "name": "Union Organization Islamic de France",
+          "params": {
+            "Fajr": 12,
+            "Isha": 12
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "05:41 (CEST)",
+        "Sunrise": "06:51 (CEST)",
+        "Dhuhr": "13:31 (CEST)",
+        "Asr": "17:12 (CEST)",
+        "Sunset": "20:11 (CEST)",
+        "Maghrib": "20:11 (CEST)",
+        "Isha": "21:22 (CEST)",
+        "Imsak": "05:31 (CEST)",
+        "Midnight": "01:31 (CEST)"
+      },
+      "date": {
+        "readable": "09 Apr 2021",
+        "timestamp": "1617951661",
+        "gregorian": {
+          "date": "09-04-2021",
+          "format": "DD-MM-YYYY",
+          "day": "09",
+          "weekday": {
+            "en": "Friday"
+          },
+          "month": {
+            "number": 4,
+            "en": "April"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "26-08-1442",
+          "format": "DD-MM-YYYY",
+          "day": "26",
+          "weekday": {
+            "en": "Al Juma'a",
+            "ar": "الجمعة"
+          },
+          "month": {
+            "number": 8,
+            "en": "Shaʿbān",
+            "ar": "شَعْبان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 47.9568123,
+        "longitude": 7.7496747,
+        "timezone": "Europe/Berlin",
+        "method": {
+          "id": 12,
+          "name": "Union Organization Islamic de France",
+          "params": {
+            "Fajr": 12,
+            "Isha": 12
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "05:38 (CEST)",
+        "Sunrise": "06:49 (CEST)",
+        "Dhuhr": "13:30 (CEST)",
+        "Asr": "17:13 (CEST)",
+        "Sunset": "20:12 (CEST)",
+        "Maghrib": "20:12 (CEST)",
+        "Isha": "21:23 (CEST)",
+        "Imsak": "05:28 (CEST)",
+        "Midnight": "01:31 (CEST)"
+      },
+      "date": {
+        "readable": "10 Apr 2021",
+        "timestamp": "1618038061",
+        "gregorian": {
+          "date": "10-04-2021",
+          "format": "DD-MM-YYYY",
+          "day": "10",
+          "weekday": {
+            "en": "Saturday"
+          },
+          "month": {
+            "number": 4,
+            "en": "April"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "27-08-1442",
+          "format": "DD-MM-YYYY",
+          "day": "27",
+          "weekday": {
+            "en": "Al Sabt",
+            "ar": "السبت"
+          },
+          "month": {
+            "number": 8,
+            "en": "Shaʿbān",
+            "ar": "شَعْبان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 47.9568123,
+        "longitude": 7.7496747,
+        "timezone": "Europe/Berlin",
+        "method": {
+          "id": 12,
+          "name": "Union Organization Islamic de France",
+          "params": {
+            "Fajr": 12,
+            "Isha": 12
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "05:36 (CEST)",
+        "Sunrise": "06:47 (CEST)",
+        "Dhuhr": "13:30 (CEST)",
+        "Asr": "17:13 (CEST)",
+        "Sunset": "20:14 (CEST)",
+        "Maghrib": "20:14 (CEST)",
+        "Isha": "21:25 (CEST)",
+        "Imsak": "05:26 (CEST)",
+        "Midnight": "01:30 (CEST)"
+      },
+      "date": {
+        "readable": "11 Apr 2021",
+        "timestamp": "1618124461",
+        "gregorian": {
+          "date": "11-04-2021",
+          "format": "DD-MM-YYYY",
+          "day": "11",
+          "weekday": {
+            "en": "Sunday"
+          },
+          "month": {
+            "number": 4,
+            "en": "April"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "28-08-1442",
+          "format": "DD-MM-YYYY",
+          "day": "28",
+          "weekday": {
+            "en": "Al Ahad",
+            "ar": "الاحد"
+          },
+          "month": {
+            "number": 8,
+            "en": "Shaʿbān",
+            "ar": "شَعْبان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 47.9568123,
+        "longitude": 7.7496747,
+        "timezone": "Europe/Berlin",
+        "method": {
+          "id": 12,
+          "name": "Union Organization Islamic de France",
+          "params": {
+            "Fajr": 12,
+            "Isha": 12
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "05:34 (CEST)",
+        "Sunrise": "06:45 (CEST)",
+        "Dhuhr": "13:30 (CEST)",
+        "Asr": "17:14 (CEST)",
+        "Sunset": "20:15 (CEST)",
+        "Maghrib": "20:15 (CEST)",
+        "Isha": "21:27 (CEST)",
+        "Imsak": "05:24 (CEST)",
+        "Midnight": "01:30 (CEST)"
+      },
+      "date": {
+        "readable": "12 Apr 2021",
+        "timestamp": "1618210861",
+        "gregorian": {
+          "date": "12-04-2021",
+          "format": "DD-MM-YYYY",
+          "day": "12",
+          "weekday": {
+            "en": "Monday"
+          },
+          "month": {
+            "number": 4,
+            "en": "April"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "29-08-1442",
+          "format": "DD-MM-YYYY",
+          "day": "29",
+          "weekday": {
+            "en": "Al Athnayn",
+            "ar": "الاثنين"
+          },
+          "month": {
+            "number": 8,
+            "en": "Shaʿbān",
+            "ar": "شَعْبان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 47.9568123,
+        "longitude": 7.7496747,
+        "timezone": "Europe/Berlin",
+        "method": {
+          "id": 12,
+          "name": "Union Organization Islamic de France",
+          "params": {
+            "Fajr": 12,
+            "Isha": 12
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "05:32 (CEST)",
+        "Sunrise": "06:43 (CEST)",
+        "Dhuhr": "13:29 (CEST)",
+        "Asr": "17:14 (CEST)",
+        "Sunset": "20:16 (CEST)",
+        "Maghrib": "20:16 (CEST)",
+        "Isha": "21:28 (CEST)",
+        "Imsak": "05:22 (CEST)",
+        "Midnight": "01:30 (CEST)"
+      },
+      "date": {
+        "readable": "13 Apr 2021",
+        "timestamp": "1618297261",
+        "gregorian": {
+          "date": "13-04-2021",
+          "format": "DD-MM-YYYY",
+          "day": "13",
+          "weekday": {
+            "en": "Tuesday"
+          },
+          "month": {
+            "number": 4,
+            "en": "April"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "01-09-1442",
+          "format": "DD-MM-YYYY",
+          "day": "01",
+          "weekday": {
+            "en": "Al Thalaata",
+            "ar": "الثلاثاء"
+          },
+          "month": {
+            "number": 9,
+            "en": "Ramaḍān",
+            "ar": "رَمَضان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": [
+            "1st Day of Ramadan"
+          ]
+        }
+      },
+      "meta": {
+        "latitude": 47.9568123,
+        "longitude": 7.7496747,
+        "timezone": "Europe/Berlin",
+        "method": {
+          "id": 12,
+          "name": "Union Organization Islamic de France",
+          "params": {
+            "Fajr": 12,
+            "Isha": 12
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "05:29 (CEST)",
+        "Sunrise": "06:41 (CEST)",
+        "Dhuhr": "13:29 (CEST)",
+        "Asr": "17:15 (CEST)",
+        "Sunset": "20:18 (CEST)",
+        "Maghrib": "20:18 (CEST)",
+        "Isha": "21:30 (CEST)",
+        "Imsak": "05:19 (CEST)",
+        "Midnight": "01:30 (CEST)"
+      },
+      "date": {
+        "readable": "14 Apr 2021",
+        "timestamp": "1618383661",
+        "gregorian": {
+          "date": "14-04-2021",
+          "format": "DD-MM-YYYY",
+          "day": "14",
+          "weekday": {
+            "en": "Wednesday"
+          },
+          "month": {
+            "number": 4,
+            "en": "April"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "02-09-1442",
+          "format": "DD-MM-YYYY",
+          "day": "02",
+          "weekday": {
+            "en": "Al Arba'a",
+            "ar": "الاربعاء"
+          },
+          "month": {
+            "number": 9,
+            "en": "Ramaḍān",
+            "ar": "رَمَضان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 47.9568123,
+        "longitude": 7.7496747,
+        "timezone": "Europe/Berlin",
+        "method": {
+          "id": 12,
+          "name": "Union Organization Islamic de France",
+          "params": {
+            "Fajr": 12,
+            "Isha": 12
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "05:27 (CEST)",
+        "Sunrise": "06:39 (CEST)",
+        "Dhuhr": "13:29 (CEST)",
+        "Asr": "17:16 (CEST)",
+        "Sunset": "20:19 (CEST)",
+        "Maghrib": "20:19 (CEST)",
+        "Isha": "21:32 (CEST)",
+        "Imsak": "05:17 (CEST)",
+        "Midnight": "01:29 (CEST)"
+      },
+      "date": {
+        "readable": "15 Apr 2021",
+        "timestamp": "1618470061",
+        "gregorian": {
+          "date": "15-04-2021",
+          "format": "DD-MM-YYYY",
+          "day": "15",
+          "weekday": {
+            "en": "Thursday"
+          },
+          "month": {
+            "number": 4,
+            "en": "April"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "03-09-1442",
+          "format": "DD-MM-YYYY",
+          "day": "03",
+          "weekday": {
+            "en": "Al Khamees",
+            "ar": "الخميس"
+          },
+          "month": {
+            "number": 9,
+            "en": "Ramaḍān",
+            "ar": "رَمَضان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 47.9568123,
+        "longitude": 7.7496747,
+        "timezone": "Europe/Berlin",
+        "method": {
+          "id": 12,
+          "name": "Union Organization Islamic de France",
+          "params": {
+            "Fajr": 12,
+            "Isha": 12
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "05:25 (CEST)",
+        "Sunrise": "06:38 (CEST)",
+        "Dhuhr": "13:29 (CEST)",
+        "Asr": "17:16 (CEST)",
+        "Sunset": "20:21 (CEST)",
+        "Maghrib": "20:21 (CEST)",
+        "Isha": "21:34 (CEST)",
+        "Imsak": "05:15 (CEST)",
+        "Midnight": "01:29 (CEST)"
+      },
+      "date": {
+        "readable": "16 Apr 2021",
+        "timestamp": "1618556461",
+        "gregorian": {
+          "date": "16-04-2021",
+          "format": "DD-MM-YYYY",
+          "day": "16",
+          "weekday": {
+            "en": "Friday"
+          },
+          "month": {
+            "number": 4,
+            "en": "April"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "04-09-1442",
+          "format": "DD-MM-YYYY",
+          "day": "04",
+          "weekday": {
+            "en": "Al Juma'a",
+            "ar": "الجمعة"
+          },
+          "month": {
+            "number": 9,
+            "en": "Ramaḍān",
+            "ar": "رَمَضان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 47.9568123,
+        "longitude": 7.7496747,
+        "timezone": "Europe/Berlin",
+        "method": {
+          "id": 12,
+          "name": "Union Organization Islamic de France",
+          "params": {
+            "Fajr": 12,
+            "Isha": 12
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "05:23 (CEST)",
+        "Sunrise": "06:36 (CEST)",
+        "Dhuhr": "13:29 (CEST)",
+        "Asr": "17:17 (CEST)",
+        "Sunset": "20:22 (CEST)",
+        "Maghrib": "20:22 (CEST)",
+        "Isha": "21:35 (CEST)",
+        "Imsak": "05:13 (CEST)",
+        "Midnight": "01:29 (CEST)"
+      },
+      "date": {
+        "readable": "17 Apr 2021",
+        "timestamp": "1618642861",
+        "gregorian": {
+          "date": "17-04-2021",
+          "format": "DD-MM-YYYY",
+          "day": "17",
+          "weekday": {
+            "en": "Saturday"
+          },
+          "month": {
+            "number": 4,
+            "en": "April"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "05-09-1442",
+          "format": "DD-MM-YYYY",
+          "day": "05",
+          "weekday": {
+            "en": "Al Sabt",
+            "ar": "السبت"
+          },
+          "month": {
+            "number": 9,
+            "en": "Ramaḍān",
+            "ar": "رَمَضان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 47.9568123,
+        "longitude": 7.7496747,
+        "timezone": "Europe/Berlin",
+        "method": {
+          "id": 12,
+          "name": "Union Organization Islamic de France",
+          "params": {
+            "Fajr": 12,
+            "Isha": 12
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "05:20 (CEST)",
+        "Sunrise": "06:34 (CEST)",
+        "Dhuhr": "13:28 (CEST)",
+        "Asr": "17:18 (CEST)",
+        "Sunset": "20:24 (CEST)",
+        "Maghrib": "20:24 (CEST)",
+        "Isha": "21:37 (CEST)",
+        "Imsak": "05:10 (CEST)",
+        "Midnight": "01:29 (CEST)"
+      },
+      "date": {
+        "readable": "18 Apr 2021",
+        "timestamp": "1618729261",
+        "gregorian": {
+          "date": "18-04-2021",
+          "format": "DD-MM-YYYY",
+          "day": "18",
+          "weekday": {
+            "en": "Sunday"
+          },
+          "month": {
+            "number": 4,
+            "en": "April"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "06-09-1442",
+          "format": "DD-MM-YYYY",
+          "day": "06",
+          "weekday": {
+            "en": "Al Ahad",
+            "ar": "الاحد"
+          },
+          "month": {
+            "number": 9,
+            "en": "Ramaḍān",
+            "ar": "رَمَضان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 47.9568123,
+        "longitude": 7.7496747,
+        "timezone": "Europe/Berlin",
+        "method": {
+          "id": 12,
+          "name": "Union Organization Islamic de France",
+          "params": {
+            "Fajr": 12,
+            "Isha": 12
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "05:18 (CEST)",
+        "Sunrise": "06:32 (CEST)",
+        "Dhuhr": "13:28 (CEST)",
+        "Asr": "17:18 (CEST)",
+        "Sunset": "20:25 (CEST)",
+        "Maghrib": "20:25 (CEST)",
+        "Isha": "21:39 (CEST)",
+        "Imsak": "05:08 (CEST)",
+        "Midnight": "01:29 (CEST)"
+      },
+      "date": {
+        "readable": "19 Apr 2021",
+        "timestamp": "1618815661",
+        "gregorian": {
+          "date": "19-04-2021",
+          "format": "DD-MM-YYYY",
+          "day": "19",
+          "weekday": {
+            "en": "Monday"
+          },
+          "month": {
+            "number": 4,
+            "en": "April"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "07-09-1442",
+          "format": "DD-MM-YYYY",
+          "day": "07",
+          "weekday": {
+            "en": "Al Athnayn",
+            "ar": "الاثنين"
+          },
+          "month": {
+            "number": 9,
+            "en": "Ramaḍān",
+            "ar": "رَمَضان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 47.9568123,
+        "longitude": 7.7496747,
+        "timezone": "Europe/Berlin",
+        "method": {
+          "id": 12,
+          "name": "Union Organization Islamic de France",
+          "params": {
+            "Fajr": 12,
+            "Isha": 12
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "05:16 (CEST)",
+        "Sunrise": "06:30 (CEST)",
+        "Dhuhr": "13:28 (CEST)",
+        "Asr": "17:19 (CEST)",
+        "Sunset": "20:27 (CEST)",
+        "Maghrib": "20:27 (CEST)",
+        "Isha": "21:41 (CEST)",
+        "Imsak": "05:06 (CEST)",
+        "Midnight": "01:28 (CEST)"
+      },
+      "date": {
+        "readable": "20 Apr 2021",
+        "timestamp": "1618902061",
+        "gregorian": {
+          "date": "20-04-2021",
+          "format": "DD-MM-YYYY",
+          "day": "20",
+          "weekday": {
+            "en": "Tuesday"
+          },
+          "month": {
+            "number": 4,
+            "en": "April"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "08-09-1442",
+          "format": "DD-MM-YYYY",
+          "day": "08",
+          "weekday": {
+            "en": "Al Thalaata",
+            "ar": "الثلاثاء"
+          },
+          "month": {
+            "number": 9,
+            "en": "Ramaḍān",
+            "ar": "رَمَضان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 47.9568123,
+        "longitude": 7.7496747,
+        "timezone": "Europe/Berlin",
+        "method": {
+          "id": 12,
+          "name": "Union Organization Islamic de France",
+          "params": {
+            "Fajr": 12,
+            "Isha": 12
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "05:14 (CEST)",
+        "Sunrise": "06:28 (CEST)",
+        "Dhuhr": "13:28 (CEST)",
+        "Asr": "17:19 (CEST)",
+        "Sunset": "20:28 (CEST)",
+        "Maghrib": "20:28 (CEST)",
+        "Isha": "21:43 (CEST)",
+        "Imsak": "05:04 (CEST)",
+        "Midnight": "01:28 (CEST)"
+      },
+      "date": {
+        "readable": "21 Apr 2021",
+        "timestamp": "1618988461",
+        "gregorian": {
+          "date": "21-04-2021",
+          "format": "DD-MM-YYYY",
+          "day": "21",
+          "weekday": {
+            "en": "Wednesday"
+          },
+          "month": {
+            "number": 4,
+            "en": "April"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "09-09-1442",
+          "format": "DD-MM-YYYY",
+          "day": "09",
+          "weekday": {
+            "en": "Al Arba'a",
+            "ar": "الاربعاء"
+          },
+          "month": {
+            "number": 9,
+            "en": "Ramaḍān",
+            "ar": "رَمَضان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 47.9568123,
+        "longitude": 7.7496747,
+        "timezone": "Europe/Berlin",
+        "method": {
+          "id": 12,
+          "name": "Union Organization Islamic de France",
+          "params": {
+            "Fajr": 12,
+            "Isha": 12
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "05:12 (CEST)",
+        "Sunrise": "06:26 (CEST)",
+        "Dhuhr": "13:27 (CEST)",
+        "Asr": "17:20 (CEST)",
+        "Sunset": "20:29 (CEST)",
+        "Maghrib": "20:29 (CEST)",
+        "Isha": "21:44 (CEST)",
+        "Imsak": "05:02 (CEST)",
+        "Midnight": "01:28 (CEST)"
+      },
+      "date": {
+        "readable": "22 Apr 2021",
+        "timestamp": "1619074861",
+        "gregorian": {
+          "date": "22-04-2021",
+          "format": "DD-MM-YYYY",
+          "day": "22",
+          "weekday": {
+            "en": "Thursday"
+          },
+          "month": {
+            "number": 4,
+            "en": "April"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "10-09-1442",
+          "format": "DD-MM-YYYY",
+          "day": "10",
+          "weekday": {
+            "en": "Al Khamees",
+            "ar": "الخميس"
+          },
+          "month": {
+            "number": 9,
+            "en": "Ramaḍān",
+            "ar": "رَمَضان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 47.9568123,
+        "longitude": 7.7496747,
+        "timezone": "Europe/Berlin",
+        "method": {
+          "id": 12,
+          "name": "Union Organization Islamic de France",
+          "params": {
+            "Fajr": 12,
+            "Isha": 12
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "05:09 (CEST)",
+        "Sunrise": "06:25 (CEST)",
+        "Dhuhr": "13:27 (CEST)",
+        "Asr": "17:21 (CEST)",
+        "Sunset": "20:31 (CEST)",
+        "Maghrib": "20:31 (CEST)",
+        "Isha": "21:46 (CEST)",
+        "Imsak": "04:59 (CEST)",
+        "Midnight": "01:28 (CEST)"
+      },
+      "date": {
+        "readable": "23 Apr 2021",
+        "timestamp": "1619161261",
+        "gregorian": {
+          "date": "23-04-2021",
+          "format": "DD-MM-YYYY",
+          "day": "23",
+          "weekday": {
+            "en": "Friday"
+          },
+          "month": {
+            "number": 4,
+            "en": "April"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "11-09-1442",
+          "format": "DD-MM-YYYY",
+          "day": "11",
+          "weekday": {
+            "en": "Al Juma'a",
+            "ar": "الجمعة"
+          },
+          "month": {
+            "number": 9,
+            "en": "Ramaḍān",
+            "ar": "رَمَضان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 47.9568123,
+        "longitude": 7.7496747,
+        "timezone": "Europe/Berlin",
+        "method": {
+          "id": 12,
+          "name": "Union Organization Islamic de France",
+          "params": {
+            "Fajr": 12,
+            "Isha": 12
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "05:07 (CEST)",
+        "Sunrise": "06:23 (CEST)",
+        "Dhuhr": "13:27 (CEST)",
+        "Asr": "17:21 (CEST)",
+        "Sunset": "20:32 (CEST)",
+        "Maghrib": "20:32 (CEST)",
+        "Isha": "21:48 (CEST)",
+        "Imsak": "04:57 (CEST)",
+        "Midnight": "01:28 (CEST)"
+      },
+      "date": {
+        "readable": "24 Apr 2021",
+        "timestamp": "1619247661",
+        "gregorian": {
+          "date": "24-04-2021",
+          "format": "DD-MM-YYYY",
+          "day": "24",
+          "weekday": {
+            "en": "Saturday"
+          },
+          "month": {
+            "number": 4,
+            "en": "April"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "12-09-1442",
+          "format": "DD-MM-YYYY",
+          "day": "12",
+          "weekday": {
+            "en": "Al Sabt",
+            "ar": "السبت"
+          },
+          "month": {
+            "number": 9,
+            "en": "Ramaḍān",
+            "ar": "رَمَضان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 47.9568123,
+        "longitude": 7.7496747,
+        "timezone": "Europe/Berlin",
+        "method": {
+          "id": 12,
+          "name": "Union Organization Islamic de France",
+          "params": {
+            "Fajr": 12,
+            "Isha": 12
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "05:05 (CEST)",
+        "Sunrise": "06:21 (CEST)",
+        "Dhuhr": "13:27 (CEST)",
+        "Asr": "17:22 (CEST)",
+        "Sunset": "20:34 (CEST)",
+        "Maghrib": "20:34 (CEST)",
+        "Isha": "21:50 (CEST)",
+        "Imsak": "04:55 (CEST)",
+        "Midnight": "01:27 (CEST)"
+      },
+      "date": {
+        "readable": "25 Apr 2021",
+        "timestamp": "1619334061",
+        "gregorian": {
+          "date": "25-04-2021",
+          "format": "DD-MM-YYYY",
+          "day": "25",
+          "weekday": {
+            "en": "Sunday"
+          },
+          "month": {
+            "number": 4,
+            "en": "April"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "13-09-1442",
+          "format": "DD-MM-YYYY",
+          "day": "13",
+          "weekday": {
+            "en": "Al Ahad",
+            "ar": "الاحد"
+          },
+          "month": {
+            "number": 9,
+            "en": "Ramaḍān",
+            "ar": "رَمَضان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 47.9568123,
+        "longitude": 7.7496747,
+        "timezone": "Europe/Berlin",
+        "method": {
+          "id": 12,
+          "name": "Union Organization Islamic de France",
+          "params": {
+            "Fajr": 12,
+            "Isha": 12
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "05:03 (CEST)",
+        "Sunrise": "06:19 (CEST)",
+        "Dhuhr": "13:27 (CEST)",
+        "Asr": "17:22 (CEST)",
+        "Sunset": "20:35 (CEST)",
+        "Maghrib": "20:35 (CEST)",
+        "Isha": "21:52 (CEST)",
+        "Imsak": "04:53 (CEST)",
+        "Midnight": "01:27 (CEST)"
+      },
+      "date": {
+        "readable": "26 Apr 2021",
+        "timestamp": "1619420461",
+        "gregorian": {
+          "date": "26-04-2021",
+          "format": "DD-MM-YYYY",
+          "day": "26",
+          "weekday": {
+            "en": "Monday"
+          },
+          "month": {
+            "number": 4,
+            "en": "April"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "14-09-1442",
+          "format": "DD-MM-YYYY",
+          "day": "14",
+          "weekday": {
+            "en": "Al Athnayn",
+            "ar": "الاثنين"
+          },
+          "month": {
+            "number": 9,
+            "en": "Ramaḍān",
+            "ar": "رَمَضان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 47.9568123,
+        "longitude": 7.7496747,
+        "timezone": "Europe/Berlin",
+        "method": {
+          "id": 12,
+          "name": "Union Organization Islamic de France",
+          "params": {
+            "Fajr": 12,
+            "Isha": 12
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "05:01 (CEST)",
+        "Sunrise": "06:18 (CEST)",
+        "Dhuhr": "13:27 (CEST)",
+        "Asr": "17:23 (CEST)",
+        "Sunset": "20:36 (CEST)",
+        "Maghrib": "20:36 (CEST)",
+        "Isha": "21:53 (CEST)",
+        "Imsak": "04:51 (CEST)",
+        "Midnight": "01:27 (CEST)"
+      },
+      "date": {
+        "readable": "27 Apr 2021",
+        "timestamp": "1619506861",
+        "gregorian": {
+          "date": "27-04-2021",
+          "format": "DD-MM-YYYY",
+          "day": "27",
+          "weekday": {
+            "en": "Tuesday"
+          },
+          "month": {
+            "number": 4,
+            "en": "April"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "15-09-1442",
+          "format": "DD-MM-YYYY",
+          "day": "15",
+          "weekday": {
+            "en": "Al Thalaata",
+            "ar": "الثلاثاء"
+          },
+          "month": {
+            "number": 9,
+            "en": "Ramaḍān",
+            "ar": "رَمَضان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 47.9568123,
+        "longitude": 7.7496747,
+        "timezone": "Europe/Berlin",
+        "method": {
+          "id": 12,
+          "name": "Union Organization Islamic de France",
+          "params": {
+            "Fajr": 12,
+            "Isha": 12
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "04:59 (CEST)",
+        "Sunrise": "06:16 (CEST)",
+        "Dhuhr": "13:26 (CEST)",
+        "Asr": "17:23 (CEST)",
+        "Sunset": "20:38 (CEST)",
+        "Maghrib": "20:38 (CEST)",
+        "Isha": "21:55 (CEST)",
+        "Imsak": "04:49 (CEST)",
+        "Midnight": "01:27 (CEST)"
+      },
+      "date": {
+        "readable": "28 Apr 2021",
+        "timestamp": "1619593261",
+        "gregorian": {
+          "date": "28-04-2021",
+          "format": "DD-MM-YYYY",
+          "day": "28",
+          "weekday": {
+            "en": "Wednesday"
+          },
+          "month": {
+            "number": 4,
+            "en": "April"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "16-09-1442",
+          "format": "DD-MM-YYYY",
+          "day": "16",
+          "weekday": {
+            "en": "Al Arba'a",
+            "ar": "الاربعاء"
+          },
+          "month": {
+            "number": 9,
+            "en": "Ramaḍān",
+            "ar": "رَمَضان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 47.9568123,
+        "longitude": 7.7496747,
+        "timezone": "Europe/Berlin",
+        "method": {
+          "id": 12,
+          "name": "Union Organization Islamic de France",
+          "params": {
+            "Fajr": 12,
+            "Isha": 12
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "04:57 (CEST)",
+        "Sunrise": "06:14 (CEST)",
+        "Dhuhr": "13:26 (CEST)",
+        "Asr": "17:24 (CEST)",
+        "Sunset": "20:39 (CEST)",
+        "Maghrib": "20:39 (CEST)",
+        "Isha": "21:57 (CEST)",
+        "Imsak": "04:47 (CEST)",
+        "Midnight": "01:27 (CEST)"
+      },
+      "date": {
+        "readable": "29 Apr 2021",
+        "timestamp": "1619679661",
+        "gregorian": {
+          "date": "29-04-2021",
+          "format": "DD-MM-YYYY",
+          "day": "29",
+          "weekday": {
+            "en": "Thursday"
+          },
+          "month": {
+            "number": 4,
+            "en": "April"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "17-09-1442",
+          "format": "DD-MM-YYYY",
+          "day": "17",
+          "weekday": {
+            "en": "Al Khamees",
+            "ar": "الخميس"
+          },
+          "month": {
+            "number": 9,
+            "en": "Ramaḍān",
+            "ar": "رَمَضان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 47.9568123,
+        "longitude": 7.7496747,
+        "timezone": "Europe/Berlin",
+        "method": {
+          "id": 12,
+          "name": "Union Organization Islamic de France",
+          "params": {
+            "Fajr": 12,
+            "Isha": 12
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    },
+    {
+      "timings": {
+        "Fajr": "04:54 (CEST)",
+        "Sunrise": "06:12 (CEST)",
+        "Dhuhr": "13:26 (CEST)",
+        "Asr": "17:24 (CEST)",
+        "Sunset": "20:41 (CEST)",
+        "Maghrib": "20:41 (CEST)",
+        "Isha": "21:59 (CEST)",
+        "Imsak": "04:44 (CEST)",
+        "Midnight": "01:27 (CEST)"
+      },
+      "date": {
+        "readable": "30 Apr 2021",
+        "timestamp": "1619766061",
+        "gregorian": {
+          "date": "30-04-2021",
+          "format": "DD-MM-YYYY",
+          "day": "30",
+          "weekday": {
+            "en": "Friday"
+          },
+          "month": {
+            "number": 4,
+            "en": "April"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        },
+        "hijri": {
+          "date": "18-09-1442",
+          "format": "DD-MM-YYYY",
+          "day": "18",
+          "weekday": {
+            "en": "Al Juma'a",
+            "ar": "الجمعة"
+          },
+          "month": {
+            "number": 9,
+            "en": "Ramaḍān",
+            "ar": "رَمَضان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": []
+        }
+      },
+      "meta": {
+        "latitude": 47.9568123,
+        "longitude": 7.7496747,
+        "timezone": "Europe/Berlin",
+        "method": {
+          "id": 12,
+          "name": "Union Organization Islamic de France",
+          "params": {
+            "Fajr": 12,
+            "Isha": 12
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    }
+  ]
+}

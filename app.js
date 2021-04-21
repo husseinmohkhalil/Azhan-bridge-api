@@ -1,60 +1,31 @@
-var express = require('express');
-var path = require('path');
-var favicon = require('serve-favicon');
-var logger = require('morgan');
-var cookieParser = require('cookie-parser');
-var bodyParser = require('body-parser');
+const express = require("express");
+const request = require("request");
+const cron = require("node-cron");
+const fs = require("fs");
 
-var routes = require('./routes/index');
-var users = require('./routes/users');
+const routes = require("./routes/index");
+const prayerEvent = require("./routes/prayerEvent");
 
-var app = express();
+const app = express();
 
-// view engine setup
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'pug');
-
-// uncomment after placing your favicon in /public
-//app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
-app.use(logger('dev'));
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
-
-app.use('/', routes);
-app.use('/users', users);
-
-// catch 404 and forward to error handler
-app.use(function(req, res, next) {
-  var err = new Error('Not Found');
-  err.status = 404;
-  next(err);
-});
-
-// error handlers
-
-// development error handler
-// will print stacktrace
-if (app.get('env') === 'development') {
-  app.use(function(err, req, res, next) {
-    res.status(err.status || 500);
-    res.render('error', {
-      message: err.message,
-      error: err
-    });
-  });
-}
-
-// production error handler
-// no stacktraces leaked to user
-app.use(function(err, req, res, next) {
-  res.status(err.status || 500);
-  res.render('error', {
-    message: err.message,
-    error: {}
+// Schedule tasks to be run on the server.
+cron.schedule("1 0 * * *", function () {
+  var dateObj = new Date();
+  var month = dateObj.getUTCMonth() + 1; //months from 1-12
+  var year = dateObj.getUTCFullYear();
+  const url =
+    "http://api.aladhan.com/v1/calendar?latitude=47.9568123&longitude=7.7496747&method=12&month=" +
+    month +
+    "&year=" +
+    year;
+  request(url, function (error, response, body) {
+    if (!error && response.statusCode == 200) {
+      const toJson = JSON.parse(body);
+      let data = JSON.stringify(toJson, null, 2);
+      fs.writeFileSync("prayerTime.json", data);
+    }
   });
 });
-
-
+app.use("/", routes);
+app.use("/prayerevent", prayerEvent);
 module.exports = app;
