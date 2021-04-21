@@ -7,110 +7,14 @@ const request = require("request");
 
 /* GET all avaliable Prayer Time */
 router.get("/", function (req, res, next) {
-  const dataFromJsonFile = fs.readFileSync('prayerTime.json',);
-  const jsonObject = JSON.parse(dataFromJsonFile).data;
- 
-  let todaysDay = moment().tz("Europe/Berlin").format('DD');
-
-  const prayerName = 'fajr dhuhr asr maghrib isha'
-
-  let result = [];
-  let needObject220 = jsonObject.filter((data) => {
-    if (data.date.readable.split(" ")[0] === todaysDay.toString()) {
-      for (const property in data.timings) {
-        const propValue = data.timings[property].replace(" (CEST)", "");
-        const pryerTime = new Date(data.date.readable);
-
-        pryerTime.setHours(propValue.split(":")[0], propValue.split(":")[1]);
-        
-        // const today = new Date().toLocaleString("de-DE",{timeZone: "Europe/Berlin"});
-        const today = moment().tz("Europe/Berlin").toDate();
-        if (today <= pryerTime && prayerName.indexOf(property.toLowerCase()) > -1) {
-          result.push({
-            name: property,
-            time: propValue,
-            date: data.date.readable,
-            remaingSeconds: Math.round((pryerTime.getTime() - today.getTime())/1000),
-          });
-        }
-      }
-    }
-    if (data.date.readable.split(" ")[0] === (parseInt(todaysDay) + 1).toString()) {
-      for (const property in data.timings) {
-        const propValue = data.timings[property].replace(" (CEST)", "");
-        const pryerTime = new Date(data.date.readable);
-
-        pryerTime.setHours(propValue.split(":")[0], propValue.split(":")[1]);
-        
-        // const today = new Date().toLocaleString("de-DE",{timeZone: "Europe/Berlin"});
-        const today = moment().tz("Europe/Berlin").toDate();
-        if (today <= pryerTime && property.toLowerCase() === 'fajr') {
-          result.push({
-            name: property,
-            time: propValue,
-            date: data.date.readable,
-            remaingSeconds: Math.round((pryerTime.getTime() - today.getTime())/1000),
-          });
-        }
-      }
-    }
-    
-  });
+  
+  const result = GetRemainingPrayerEventInDay();
   res.send(result)
 });
 
 router.get("/nextprayarevent", function (req, res, next) {
-  const dataFromJsonFile = fs.readFileSync('prayerTime.json',);
-  const jsonObject = JSON.parse(dataFromJsonFile).data;
- 
-  let todaysDay = moment().tz("Europe/Berlin").format('DD');
-
-  const prayerName = 'fajr dhuhr asr maghrib isha'
-
-  let result = [];
-  let needObject220 = jsonObject.filter((data) => {
-    if (data.date.readable.split(" ")[0] === todaysDay.toString()) {
-      for (const property in data.timings) {
-        const propValue = data.timings[property].replace(" (CEST)", "");
-        const pryerTime = new Date(data.date.readable);
-
-        pryerTime.setHours(propValue.split(":")[0], propValue.split(":")[1]);
-        
-        // const today = new Date().toLocaleString("de-DE",{timeZone: "Europe/Berlin"});
-        const today = moment().tz("Europe/Berlin").toDate();
-        if (today <= pryerTime && prayerName.indexOf(property.toLowerCase()) > -1) {
-          result.push({
-            name: property,
-            time: propValue,
-            date: data.date.readable,
-            remaingSeconds: Math.round((pryerTime.getTime() - today.getTime())/1000),
-          });
-        }
-      }
-    }
-    if (data.date.readable.split(" ")[0] === (parseInt(todaysDay) + 1).toString()) {
-      for (const property in data.timings) {
-        const propValue = data.timings[property].replace(" (CEST)", "");
-        const pryerTime = new Date(data.date.readable);
-
-        pryerTime.setHours(propValue.split(":")[0], propValue.split(":")[1]);
-        
-        // const today = new Date().toLocaleString("de-DE",{timeZone: "Europe/Berlin"});
-        const today = moment().tz("Europe/Berlin").toDate();
-        if (today <= pryerTime && property.toLowerCase() === 'fajr') {
-          result.push({
-            name: property,
-            time: propValue,
-            date: data.date.readable,
-            remaingSeconds: Math.round((pryerTime.getTime() - today.getTime())/1000),
-          });
-        }
-      }
-    }
-    
-  });
-  // data.date.readable.split(" ")[0] === (todaysDay + 1).toString()
-
+  
+  const result = GetRemainingPrayerEventInDay();
   res.send(result.slice(0,2))
 });
 router.get("/getall", function (req, res, next) {
@@ -145,6 +49,63 @@ router.get("/updatejsonfile", function (req, res, next) {
 
 function convertTZ(date, tzString) {
   return new Date((typeof date === "string" ? new Date(date) : date).toLocaleString("de-DE", {timeZone: tzString}));   
+}
+
+function GetRemainingPrayerEventInDay(){
+
+  const dataFromJsonFile = fs.readFileSync('prayerTime.json',);
+  const jsonObject = JSON.parse(dataFromJsonFile).data;
+ 
+  let todaysDay = moment().tz("Europe/Berlin").format('DD');
+
+  const prayerName = 'fajr dhuhr asr maghrib isha'
+
+  let result = [];
+  jsonObject.filter((data) => {
+    if (data.date.readable.split(" ")[0] === todaysDay.toString()) {
+      for (const property in data.timings) {
+        const propValue = data.timings[property].replace(" (CEST)", "");
+        const pryerTime = new Date(data.date.readable);
+
+        pryerTime.setHours(propValue.split(":")[0], propValue.split(":")[1]);
+        
+        // const today = new Date().toLocaleString("de-DE",{timeZone: "Europe/Berlin"});
+        const todayStringDate = moment().tz("Europe/Berlin").format("HH:mm");
+        const today = new Date();
+        today.setHours(todayStringDate.split(":")[0], todayStringDate.split(":")[1]);
+
+        if (today <= pryerTime && prayerName.indexOf(property.toLowerCase()) > -1) {
+          result.push({
+            name: property,
+            time: propValue,
+            date: data.date.readable,
+            remaingSeconds: Math.round((pryerTime.getTime() - today.getTime())/1000),
+          });
+        }
+      }
+    }
+    if (data.date.readable.split(" ")[0] === (parseInt(todaysDay) + 1).toString()) {
+      for (const property in data.timings) {
+        const propValue = data.timings[property].replace(" (CEST)", "");
+        const pryerTime = new Date(data.date.readable);
+
+        pryerTime.setHours(propValue.split(":")[0], propValue.split(":")[1]);
+        
+        // const today = new Date().toLocaleString("de-DE",{timeZone: "Europe/Berlin"});
+        const today = moment().tz("Europe/Berlin").toDate();
+        if (today <= pryerTime && property.toLowerCase() === 'fajr') {
+          result.push({
+            name: property,
+            time: propValue,
+            date: data.date.readable,
+            remaingSeconds: Math.round((pryerTime.getTime() - today.getTime())/1000),
+          });
+        }
+      }
+    }
+    
+  });
+  return result;
 }
 
 module.exports = router;

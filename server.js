@@ -18,10 +18,10 @@ http.createServer(app).listen(2000, () => {
       let data = JSON.stringify(toJson, null, 2);
       fs.writeFileSync("prayerTime.json", data);
       console.log(`json saved successfuly`);
-      console.log(`Application is running on port 3000`);
+      console.log(`Application is running on port 2000`);
     } else {
       console.log(`json not saved!!!`);
-      console.log(`Application is running on port 3000`);
+      console.log(`Application is running on port 2000`);
     }
   });
 });
